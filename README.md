@@ -1,1 +1,1 @@
-https://github.com/Envinorgus/Design1_4.git
+https://envinorgus.github.io/Design1_4/
