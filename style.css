@@ -118,8 +118,8 @@
 /*-----------------------------------------------изменение кнопок среднее меню*/
 
 .section__main-menu-list-item_shift:hover {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
+    filter: opacity(0.4);
+    
 }
 
 
