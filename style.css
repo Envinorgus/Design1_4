@@ -37,24 +37,30 @@
 
 .conteiner {
     width: 320px;
-    height: 1024px;
+    min-height: 100vh;
+    max-height: 1024px;
+    
     position: fixed;
     top: 0;
     left: 0;
     box-shadow: 16px 0 52px 0  #0E185033,
                 -2px 0 4px 0 #454F7E05;
+    
 
 }
 
 .section {
     width: 63%;
-    height: 876px;
-    margin: 14.3% 36.6% 32px 0%;
+    height: 41vh;
+    margin: 14.3% 36.6% 3.1vh 0%;
+    
+    
     
 }
 
 .section__main-menu {
     margin-left: 11%;
+    
 }
 
 
@@ -100,7 +106,7 @@
 .section__main-menu-list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 3.12vh;
     white-space: nowrap;
     font-family: 'TTLakes-Medium', sans-serif;
     
@@ -149,25 +155,45 @@
 
 /*----------------------------------------Нижнее меню*/
 
+.menu {
+    width: 169px;
+    height: 18.84vh;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    display: block;
+    margin-top: 19.53vh;
+    
+    
+}
+
 .menu__user-action {
     display: flex;
-    margin-top: 236px;
     gap: 16px;
 }
 
 .menu__mail {
-    margin-top: 16px ;
+    margin-top: 1.56vh ;
     margin-bottom: 12px;
 }
 
 .menu__language {
     display: flex;
     gap: 7px;
-    margin-top: 40px;
+    margin-top: 3.90vh;
 }
 
+
+.menu__adres {
+    display: flex;
+    margin-top: 0.97vh;
+    flex-direction: column;
+    
+    
+}
 .menu__mail {
     font-family: 'TTLakes-Medium', sans-serif;
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -175,8 +201,8 @@
     font-family: TTLakes-Bold;
     font-size: 24px;
     text-wrap: nowrap;
-    
-
+    text-decoration: none;
+    color: black;
 }
 
 /* -----------------------------------------изменение кнопок нижнее меню*/
